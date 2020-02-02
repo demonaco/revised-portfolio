@@ -36,3 +36,5 @@ jQuery(document).ready(function() {
      close.style.display = "none";
   }
   
+//   About me code
+

@@ -31,7 +31,7 @@
     margin-left: 13px;
   }
   
-  .logo h1 {
+  .logo h4 {
      font-family: Segoe UI, Helvetica, calibri, serif;
      margin-top: 4px;
   }
@@ -135,7 +135,7 @@
     text-align: center;
   }
   
-  header h1 {
+  header h4 {
     margin-bottom: 10px;
     font-family: League Spartan, sans-serif;
     font-weight: 500;
@@ -143,8 +143,8 @@
     color: white;
   }
   
-  #photography {
-    font-size: 60px;
+  #name {
+    font-size: 40px;
     letter-spacing: 0.5px;
   }
   
@@ -209,5 +209,113 @@
     }
   }
   /*Hero Image*/
+
+  /* Start About Me */
+.about-me {
+    background-color: #fffffff;
+    overflow: hidden;
+    /*width: 100%;*/
+  }
+    /*border: 0.5em solid;*/
+  .about-me >div{
+    /*box-sizing: border-box;*/
+  }
+  .about-me .image {
+    float: left;
+    width: 30% ;
+    /*height: 600px;*/
   
+  }
   
+  .about-me .image img {
+    width: 100%;
+    /*height: 100%;*/
+  }
+  
+  .about-me .info {
+    float: left;
+    width: 65%;
+    margin: 1.5% 2.5% 0 2.5%;
+    font-family: 'Roboto', Helvetica, sans-serif;
+  }
+  
+  .about-me .info h2 {
+    margin: 20px 0 20px 40px;
+    color: #000000;
+    font-family: 'Roboto', Helvetica, sans-serif;
+  }
+  .about-me .info >p {
+    margin: 0 0 10px 40px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+  }
+  .about-me .info > p:last-of-type {
+    margin-top: 10px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+  
+  }
+  .about-me .info  p {
+    line-height: 1.5;
+    color: #888;
+    font-family: 'Roboto', Helvetica, sans-serif;
+  }
+  .about-me .info .hobbies {
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+  }
+  .about-me .info .hobbies .content {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+  }
+  .about-me .info .hobbies .content h3{
+    color: #000000;
+  }
+  .about-me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+  }
+  .about-me .info .hobbies .content .icon i{
+    max-width: 100%;
+    padding-top: 10px;
+  }
+  .about-me .info .hobbies .content .text {
+    float: left;
+    width: 84%;
+    margin-left: 2%;
+  }
+  /* End About Me */
+
+  .card-text {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #000000;
+  }
+
+  .aboutMe {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #000000;
+  }
+
+  .container {
+    width: 80%;
+    /*Orginal Width 1170 */
+    margin: auto;
+    /*background-color: #fff;*/
+  }
+  
+  .containerB {
+    width: 100%;
+    /*Orginal Width 1170 */
+    margin: auto;
+    /*background-color: #fff;*/
+    box-sizing: border-box;
+  }
+  
+   .clearfix {
+    clear: both;
+  } 
+
+  body {
+    background-color: #f7f7f7
+  }
