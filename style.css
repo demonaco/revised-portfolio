@@ -220,8 +220,12 @@ nav ul li ul li a {
   }
   
   #name {
-    font-size: 40px;
+    font-size: 14px;
     letter-spacing: 0.5px;
+  }
+  #name1 {
+    font-size: 40px;
+    letter-spacing: 0.5px;  
   }
   
   header p {
@@ -396,7 +400,7 @@ nav ul li ul li a {
     background-color: #f7f7f7
   }
 
-  /* footer {
+   /* footer {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
@@ -406,15 +410,16 @@ nav ul li ul li a {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
-  } */
+  }  */
 
-  footer{
-    /* position: fixed; */
+  footer {
+    position: fixed; 
     bottom: 0;
     margin: auto 0;
     text-align: center;
     width: 100%;
-    margin-right: 20px;
+    background-color: #000000;
+    height: 48px;
 }
 
   /* start main rulez*/
@@ -731,6 +736,7 @@ body {
   /* End Media Query */
 
 /* //portfolio CSS */
+
   
 /* Contact Form */
 #success-message {
@@ -781,6 +787,12 @@ body {
       color: #000000;
       border: 1px solid #000000;
       background: transparent;
+  }
+
+  .btn {
+    color: #000000;
+    border: 1px solid #000000;
+    background: transparent; 
   }
   
   .btn-mod, a.btn-mod {
@@ -1025,9 +1037,7 @@ section{
 blockquote{
    
 }
-/* .demo{
-   visibility: hidden;
-} */
+
 form{
    margin-left: 0;
 }
@@ -1068,4 +1078,13 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+#portfolioTitle {
+    text-align: center;
+    margin-right: 50%;
 }
