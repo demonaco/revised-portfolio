@@ -212,7 +212,7 @@
 
   /* Start About Me */
 .about-me {
-    background-color: #fffffff;
+    background-color: #ffffff;
     overflow: hidden;
     /*width: 100%;*/
   }
@@ -319,3 +319,318 @@
   body {
     background-color: #f7f7f7
   }
+
+  footer {
+      position: fixed;
+      height: 50px;
+    border-top: solid black 2px;
+    width: 100%
+  }
+
+
+  /* start main rulez*/
+/**{
+  box-sizing: border-box;
+}*/
+
+body {
+    /*width: auto;*/
+    /*background-color: #888;*/
+    /*height:4000px;*/
+    /*margin: auto;*/
+  }
+  
+  .container {
+    width: 80%;
+    /*Orginal Width 1170 */
+    margin: auto;
+    /*background-color: #fff;*/
+  }
+  
+  .containerB {
+    width: 100%;
+    /*Orginal Width 1170 */
+    margin: auto;
+    /*background-color: #fff;*/
+    box-sizing: border-box;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  /* End main rulez*/
+  
+  
+  
+  /* Strat Features */
+  .features {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    /*box-sizing: border-box;*/
+  }
+  
+  .features .feat {
+    float: left;
+    width: 33.333333%;
+    height: 150px;
+    box-sizing: border-box;
+  }
+  
+  .features .feat h2 {
+    /*text-transform: uppercase;*/
+    color: #555;
+  }
+  
+  .features .feat p {
+    line-height: 1.5;
+    color: #888;
+    /*text-align: justify;*/
+    /*padding: 0 20px 0 0;*/
+  }
+  /* End Features */
+  
+  /* Start About Me */
+  .about-me {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    /*width: 100%;*/
+  }
+    /*border: 0.5em solid;*/
+  .about-me >div{
+    /*box-sizing: border-box;*/
+  }
+  .about-me .image {
+    float: left;
+    width: 30% ;
+    /*height: 600px;*/
+  
+  }
+  
+  .about-me .image img {
+    width: 100%;
+    /*height: 100%;*/
+  }
+  
+  .about-me .info {
+    float: left;
+    width: 65%;
+    margin: 1.5% 2.5% 0 2.5%;
+  }
+  
+  .about-me .info h2 {
+    margin: 20px 0 20px 40px;
+    color: #555;
+  }
+  .about-me .info >p {
+    margin: 0 0 10px 40px;
+  }
+  .about-me .info > p:last-of-type {
+    margin-top: 10px;
+  
+  }
+  .about-me .info  p {
+    line-height: 1.5;
+    color: #888;
+  }
+  .about-me .info .hobbies {
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+  }
+  .about-me .info .hobbies .content {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+  }
+  .about-me .info .hobbies .content h3{
+    color: #555;
+  }
+  .about-me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+  }
+  .about-me .info .hobbies .content .icon i{
+    max-width: 100%;
+    padding-top: 10px;
+  }
+  .about-me .info .hobbies .content .text {
+    float: left;
+    width: 84%;
+    margin-left: 2%;
+  }
+  /* End About Me */
+  
+  
+  /* Start My Skills */
+  .my-skills {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+  
+  .my-skills .skills, .my-skills .progress {
+    width: 50%;
+    float: left;
+  }
+  .my-skills .skills h2{
+    margin: 25px 0 20px 40px;
+    color: #555;
+  }
+  .my-skills .skills p{
+    margin: 0 0 10px 40px;
+    line-height: 1.5;
+    color: #666;
+    }
+    .my-skills .skills p:last-of-type{
+      margin-top: 15px;
+    }
+    .my-skills .skills button{
+      padding: 10px 30px;
+      margin: 25px 0 20px 40px;
+    }
+    .my-skills .progress .technique {
+      margin-left: 50px;
+    }
+    .my-skills .progress .technique h3{
+      color: #555;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    .my-skills .progress .technique div{
+      background-color: #f2f2f2;
+      height: 20px;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+    .my-skills .progress .technique div span{
+      background-color: #2dcc70;
+      height: 20px;
+      display: block;
+      line-height: 20px;
+      text-align: right;
+      color: #fff;
+      font-weight: bold;
+    }
+  /* End My Skills */
+
+  
+  
+  /* Start My Education */
+  .my-education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+  }
+  .my-education .main{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+  }
+  .my-education .main h2{
+    margin: 25px 0 20px 40px;
+  }
+  .my-education .main p{
+    margin: 0 0 10px 40px;
+  }
+  .my-education .main p:last-of-type{
+    margin-top: 25px;
+  }
+  .my-education .exp {
+    width: 45%;
+    float: left;
+  }
+  .my-education .exp h3{
+    margin: 73px 0 10px 0;
+  }
+  .my-education .exp span{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .my-education .exp span:last-of-type{
+    background-color: #2dcc70;
+    display: inline-block;
+    color: #fff;
+    padding: 3px 6px;
+    font-size: 0.9em;
+  }
+  .my-education .exp hr{
+    margin: 30px 0 10px 0px;
+    width: 97%;
+  }
+  /* End My Education */
+  
+  
+  /* Start My Framework */
+  
+  .paragrph{
+    line-height: 1.5;
+    color: #666;
+  }
+  .he{
+    color: #555;
+    /*text-transform: uppercase;*/
+  }
+  .sp{
+    line-height: 1.5;
+    color: #888;
+  }
+  .hr{
+    margin: 30px 0 30px 40px ;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+    width: 95%;
+  }
+  /* End My Framework */
+  /* Start Media Query */
+  
+  @media (max-width: 800px) {
+    .features .feat {
+      width: 95%;
+    }
+    .about-me .image {
+      width: 100%;
+    }
+    .about-me .image img {
+      width: 50%;
+      height: 70%;
+      margin: 0 25%;
+    }
+    .about-me .info, .about-me .info .hobbies .content {
+      width: 95%;
+    }
+    .my-skills, .my-skills .skills, .my-skills .progress {
+      width: 95%;
+    }
+    .resume {
+      width: 100%;
+    }
+    .my-education .main, .my-education .exp {
+      width: 95%;
+      padding: 0;
+      margin: 0;
+    }
+    .my-education .main .paragrph, .my-education .exp .paragrph {
+      width: 100%;
+      margin: 20px 0;
+    }
+    .my-education .main h2, .my-education .exp h3 {
+      width: 100%;
+      margin: 20px 0;
+      padding: 10px 0;
+    }
+    .my-education hr {
+      margin: 20px 0;
+      width: 100%;
+    }
+    .my-education .exp hr {
+      margin: 0 auto;
+      width: 50%;
+    }
+   
+  /* End Media Query */
+
+/* //portfolio CSS */
+  
