@@ -1,118 +1,58 @@
-jQuery(document).ready(function() {
-    jQuery("#menu").click(function () {
-      jQuery("nav").slideToggle(400, function () {
-        jQuery(this).toggleClass("nav-expanded").css('display', '');
-      });
-    });
-  });
-  
-  jQuery(document).ready(function() {
-    jQuery("#close").click(function () {
-      jQuery("nav").slideToggle(400, function () {
-        jQuery(this).toggleClass("nav-expanded").css('display', '');
-      });
-    });
-  });
-  
-  var menu = document.getElementById("menu");
-  var close = document.getElementById("close");
-  
-  menu.addEventListener('click', showClose);
-  
-  function showClose () {
-     var menu = document.getElementById("menu");
-     var close = document.getElementById("close");
-     menu.style.display = "none";
-     close.style.display = "block";
-  }
-  
-  
-  close.addEventListener('click', showMenu);
-  
-  function showMenu () {
-     var menu = document.getElementById("menu");
-     var close = document.getElementById("close");
-     menu.style.display = "block";
-     close.style.display = "none";
-  }
-  
-//   Portfolio
-
-Vue.config.devtools = true;
-
-Vue.component('card', {
-  template: `
-    <div class="card-wrap"
-      @mousemove="handleMouseMove"
-      @mouseenter="handleMouseEnter"
-      @mouseleave="handleMouseLeave"
-      ref="card">
-      <div class="card"
-        :style="cardStyle">
-        <div class="card-bg" :style="[cardBgTransform, cardBgImage]"></div>
-        <div class="card-info">
-          <slot name="header"></slot>
-          <slot name="content"></slot>
-        </div>
-      </div>
-    </div>`,
-  mounted() {
-    this.width = this.$refs.card.offsetWidth;
-    this.height = this.$refs.card.offsetHeight;
-  },
-  props: ['dataImage'],
-  data: () => ({
-    width: 0,
-    height: 0,
-    mouseX: 0,
-    mouseY: 0,
-    mouseLeaveDelay: null
-  }),
-  computed: {
-    mousePX() {
-      return this.mouseX / this.width;
-    },
-    mousePY() {
-      return this.mouseY / this.height;
-    },
-    cardStyle() {
-      const rX = this.mousePX * 30;
-      const rY = this.mousePY * -30;
-      return {
-        transform: `rotateY(${rX}deg) rotateX(${rY}deg)`
-      };
-    },
-    cardBgTransform() {
-      const tX = this.mousePX * -40;
-      const tY = this.mousePY * -40;
-      return {
-        transform: `translateX(${tX}px) translateY(${tY}px)`
-      }
-    },
-    cardBgImage() {
-      return {
-        backgroundImage: `url(${this.dataImage})`
-      }
+//contact form JS
+function validateForm() {
+    var n = document.getElementById('name').value;
+    var e = document.getElementById('email').value;
+    var s = document.getElementById('subject').value;
+    var m = document.getElementById('message').value;
+    var onlyLetters =/^[a-zA-Z\s]*$/; 
+    var onlyEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    
+    
+    if(n == "" || n == null){
+        document.getElementById('nameLabel').innerHTML = ('Please enter your name');
+        document.getElementById('name').style.borderColor = "red";
+        return false;
     }
-  },
-  methods: {
-    handleMouseMove(e) {
-      this.mouseX = e.pageX - this.$refs.card.offsetLeft - this.width/2;
-      this.mouseY = e.pageY - this.$refs.card.offsetTop - this.height/2;
-    },
-    handleMouseEnter() {
-      clearTimeout(this.mouseLeaveDelay);
-    },
-    handleMouseLeave() {
-      this.mouseLeaveDelay = setTimeout(()=>{
-        this.mouseX = 0;
-        this.mouseY = 0;
-      }, 1000);
+       
+  
+    if (!n.match(onlyLetters)) {
+        document.getElementById('nameLabel').innerHTML = ('Please enter only letters');
+        document.getElementById('name').style.borderColor = "red";
+        return false;
     }
-  }
-});
-
-const app = new Vue({
-  el: '#app'
-});
-
+  
+    if(e == "" || e == null ){
+          document.getElementById('emailLabel').innerHTML = ('Please enter your email');
+          document.getElementById('email').style.borderColor = "red";
+          return false;
+      }
+  
+    if (!e.match(onlyEmail)) {
+        document.getElementById('emailLabel').innerHTML = ('Please enter a valid email address');
+        document.getElementById('email').style.borderColor = "red";
+        return false;
+    }
+  
+    if(s == "" || s == null ){
+          document.getElementById('subjectLabel').innerHTML = ('Please enter your subject');
+          document.getElementById('subject').style.borderColor = "red";
+          return false;
+      }
+  
+    if (!s.match(onlyLetters)) {
+        document.getElementById('subjectLabel').innerHTML = ('Please enter only letters');
+        document.getElementById('subject').style.borderColor = "red";
+        return false;
+    }
+  
+    if(m == "" || m == null){
+        document.getElementById('messageLabel').innerHTML = ('Please enter your message');
+        document.getElementById('message').style.borderColor = "red";
+        return false;
+    }
+  
+    else{
+          return true;
+      }
+      
+}

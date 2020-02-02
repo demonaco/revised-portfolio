@@ -15,20 +15,82 @@
 </head>
 <body>
 <!--Navigation Bar-->
-<div class="logo">
-    <h1> MATT DEMONACO </h1>
-  </div>
-   <span id="close"> <img style="width: 25px;" src="http://www.pvhc.net/img5/onbbqnqzkjrtvirmiqnp.png" alt="CLOSE"> </img> </span>
-  <span id="menu"> <img style="width: 25px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR11WXR-a18XfNZknL7S4lu0lLyC4aWZPY4sLd4wNHUNv9So2gd" alt="MENU"> </span>
-  <nav>
-    <ul>
-      <li> <a href="#"> HOME </a> </li>
-      <li> <a href="#"> PORTFOLIO </a> </li>
-      <li> <a href="#"> CONTACT </a> </li>
-    </ul>
-  </nav>
+<!-- Navigation -->
+<section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <p>MATT DEMONACO</p>
+      </div>
+      <nav>
+        <div class="nav-mobile">
+          <a id="nav-toggle" href="#!"><span></span></a>
+        </div>
+        <ul class="nav-list">
+          <!-- Setting the links to #! will ensure that no action takes place on click. -->
+          <li><a href="#!">Home</a></li>
+          <li><a href="#!">Portfolio</a></li>
+          <li><a href="#!">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
 <!--Navigation Bar-->
+<!-- Contact form -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <body>
 
+    <div class="container">
+
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
+            <h2 class="form-title">Let's get in touch</h2>
+          </div>
+      </div>
+
+      <div class="row">
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+              <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
+
+                  <div class="form-group">
+                      <label class="form-label" id="nameLabel" for="name"></label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+                  </div>
+
+                  <div class="form-group">
+                      <label class="form-label" id="emailLabel" for="email"></label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
+                  </div>
+
+                  <div class="form-group">
+                      <label class="form-label" id="subjectLabel" for="sublect"></label>
+                      <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                  </div>
+
+                  <div class="form-group">
+                      <label class="form-label" id="messageLabel" for="message"></label>
+                      <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>                                 
+                  </div>
+
+                  <div class="text-center margin-top-25">
+                      <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
+                  </div>
+
+              </form><!-- End form -->
+            
+          </div><!-- End col -->
+
+      </div><!-- End row -->
+      
+    </div><!-- End container -->
+    
+  </body><!-- End body -->
+
+  
+<!--end Contact form -->
 
 </body>
 </html>
