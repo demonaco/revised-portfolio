@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    
   }
   
   input,
@@ -24,7 +25,7 @@
   
   
   /*Navigation Bar*/
-  @charset "UTF-8";
+  /* @charset "UTF-8"; */
 /* 
 $content-width will be the max width of the content within the navigation bar. 
 $breakpoint determines at which width the media query breakpoint will take effect.
@@ -188,8 +189,6 @@ nav ul li ul li a {
 }
 
   /*Navigation Bar*/
-  
-  
   
   /*Hero Image*/
   #header1 {
@@ -732,7 +731,7 @@ body {
       margin: 0 auto;
       width: 50%;
     }
-   
+}
   /* End Media Query */
 
 /* //portfolio CSS */
@@ -1087,4 +1086,4 @@ align-items: center;
 #portfolioTitle {
     text-align: center;
     margin-right: 50%;
-}
+}}
