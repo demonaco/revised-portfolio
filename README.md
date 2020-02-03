@@ -33,4 +33,10 @@ For "About Me": (https://codepen.io/yrestom/pen/KXddRZ)
 ## Screenshots
 
 ## Scroll down of home page.
-![Homepage]()
+![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/assets/images/revised-port.gif)
+
+## Portfolio carousel
+![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/assets/images/Screen%20Shot%202020-02-02%20at%204.03.18%20PM.png)
+
+## Contact form
+![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/assets/images/Screen%20Shot%202020-02-02%20at%204.02.40%20PM.png)
