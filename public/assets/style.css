@@ -31,7 +31,7 @@ $content-width will be the max width of the content within the navigation bar.
 $breakpoint determines at which width the media query breakpoint will take effect.
 */
 
-body {
+/* body {
   background-color: #63D6E0;
 }
 nav {
@@ -56,7 +56,7 @@ nav ul li a {
   /*
   The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
   */
-}
+/* }
 nav ul li a:hover {
   background: #f2f2f2;
   color: #fb5958;
@@ -77,7 +77,7 @@ nav ul li ul li a {
   position: absolute;
   z-index: 1;
   /* Guarantees that the dropdown will display on top of any content. */
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
   display: none;
 }
 
@@ -145,8 +145,8 @@ nav ul li ul li a {
 }
 #nav-toggle.active span:before, #nav-toggle.active span:after {
   top: 0;
-}
-#nav-toggle.active span:before {
+} */
+/* #nav-toggle.active span:before {
   transform: rotate(45deg);
 }
 #nav-toggle.active span:after {
@@ -157,19 +157,19 @@ nav ul li ul li a {
   .nav-list {
     display: block !important;
   }
-}
+}  */
 /* 
 .navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
 */
-.navigation {
+/* .navigation {
   height: 70px;
   background: #ffffff;
-}
+} */
 
 /*
 .nav-container – the inner wrapper for the navbar. Defines how far the actual content should stretch.
 */
-.nav-container {
+/* .nav-container {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -186,7 +186,7 @@ nav ul li ul li a {
 .brand a:visited {
   color: #463f3f;
   text-decoration: none;
-}
+}  */
 
   /*Navigation Bar*/
   
