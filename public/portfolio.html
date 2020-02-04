@@ -15,24 +15,14 @@
 </head>
 <body>
 <!--Navigation Bar-->
-<section class="navigation">
-    <div class="nav-container">
-      <div class="brand">
-        <p>MATT DEMONACO</p>
-      </div>
-      <nav>
-        <div class="nav-mobile">
-          <a id="nav-toggle" href="#!"><span></span></a>
-        </div>
-        <ul class="nav-list">
-          <!-- Setting the links to #! will ensure that no action takes place on click. -->
-          <li><a href="/public/index.html">Home</a></li>
-          <li><a href="/public/portfolio.html">Portfolio</a></li>
-          <li><a href="/public/contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </section>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">MATT DEMONACO</a>
+  <form class="form-inline">
+    <a href="index.html" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">HOME</a>
+    <a href="portfolio.html" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">PORTFOLIO</a>
+      <a href="contact.html" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">CONTACT</a>
+  </form>
+</nav>
 <!--Navigation Bar-->
 <!--Content-->
 
@@ -109,9 +99,9 @@
 </div>
 <br>
 <br>
-<!-- <footer>
-
-</footer> -->
+<footer id="foot">
+	&#9400; DeMonaco
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
