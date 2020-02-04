@@ -32,7 +32,7 @@ For "About Me": (https://codepen.io/yrestom/pen/KXddRZ)
 
 ## Screenshots
 
-## Scroll down of home page.
+## Scroll down of home page
 ![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/assets/images/revised-port.gif)
 
 ## Portfolio carousel
