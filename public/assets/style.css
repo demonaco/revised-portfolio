@@ -874,19 +874,19 @@ align-items: center;
 
 #contact {
   color: black;
-  a:active {color:#0000FF;}
+  a:active
 }
  
 #portfolio {
   margin-right: 2em;
   color: black;
-  a:active {color:#0000FF;}
+  a:active
 }
 
 #home {
   margin-right: 2em;
   color: black;
-  a:active color:#000000;
+  a:active;
 }
 
 .navbar-brand {

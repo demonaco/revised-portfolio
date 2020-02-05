@@ -20,23 +20,23 @@ Crafting up the new portfolio was also a personal excercise in researching compo
 4. Added template for contact form.
 5. Added bootstrap component I had used previously for slideshow of my projects.
 6. Installed necessary packages to get my routes up and running. 
+7. Went back to input a new navigation bar after having issues with my previous one.
 7. Deployed final product to Heroku.
 
 ## Sources:
 
 My tutor Ryan and the following codepen contributors:
 For contact form: (https://codepen.io/georgiostsirigos/pen/rWLaZJ)
-For navbar: (https://codepen.io/demonaco/pen/XWJvNrV)
 For hero image: (https://codepen.io/TheCodah/pen/RxdwXV)
 For "About Me": (https://codepen.io/yrestom/pen/KXddRZ)
 
 ## Screenshots
 
 ## Scroll down of home page
-![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/assets/images/revised-port.gif)
+![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/public/assets/images/portfolio2.gif)
 
 ## Portfolio carousel
-![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/assets/images/Screen%20Shot%202020-02-02%20at%204.03.18%20PM.png)
+![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/public/assets/images/Screen%20Shot%202020-02-04%20at%205.03.25%20PM.png)
 
 ## Contact form
-![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/assets/images/Screen%20Shot%202020-02-02%20at%204.02.40%20PM.png)
+![Homepage](https://github.com/demonaco/revised-portfolio/blob/master/public/assets/images/Screen%20Shot%202020-02-04%20at%205.03.39%20PM.png)
