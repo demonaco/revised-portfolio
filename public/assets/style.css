@@ -234,7 +234,8 @@
   }
 
   footer {
-    position: fixed; 
+    /* position: fixed;  */
+    overflow: hidden;
     bottom: 0;
     margin: auto 0;
     text-align: center;
@@ -528,6 +529,10 @@
   
   .margin-top-25 {
     margin-top: 25px;
+  }
+
+  .form {
+    margin-bottom: 4em;
   }
   
   .form-title {
@@ -824,6 +829,10 @@ h1{
   .navbar-brand {
     margin-right: 4em;
   }
+  .navname {
+  margin-right:5em;
+  }
+  
 }
 
 @media screen and (max-width: 670px){
